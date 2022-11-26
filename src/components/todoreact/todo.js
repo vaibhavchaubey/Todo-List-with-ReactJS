@@ -78,7 +78,7 @@ const Todo = () => {
       <div className="main-div">
         <div className="child-div">
           <figure>
-            <img src="./images/todo.svg" alt="todologo" />
+            <img src="./images/todo.png" alt="todologo" />
             <figcaption>Add Your List Here ✌</figcaption>
           </figure>
           <div className="addItems">
@@ -104,12 +104,10 @@ const Todo = () => {
                   <div className="todo-btn">
                     <i
                       className="far fa-edit add-btn"
-                      onClick={() => editItem(curElem.id)}
-                    ></i>
+                      onClick={() => editItem(curElem.id)}></i>
                     <i
                       className="far fa-trash-alt add-btn"
-                      onClick={() => deleteItem(curElem.id)}
-                    ></i>
+                      onClick={() => deleteItem(curElem.id)}></i>
                   </div>
                 </div>
               );
@@ -121,8 +119,7 @@ const Todo = () => {
             <button
               className="btn effect04"
               data-sm-link-text="Remove All"
-              onClick={removeAll}
-            >
+              onClick={removeAll}>
               <span> CHECK LIST</span>
             </button>
           </div>
